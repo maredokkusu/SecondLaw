@@ -1,0 +1,78 @@
+{
+  "Strength": {
+    "Strength.up": "Vuelve a la fuerza parte de ti",
+    "Strength.calc": "Calculadora de Fuerza",
+    "Strength.nutri": "Nutricion y Entrenamiento",
+    "Strength.about": "Acerca de esta pagina"
+  },
+  "Form": {
+    "Data":"Datos del Levantamiento",
+    "Inputs": {
+      "Gender": "Genero",
+      "Male": "Hombre",
+      "Female": "Mujer",
+      "Exercise": "Ejercicio",
+      "BenchPress": "Press de Banca",
+      "Squat": "Sentadilla",
+      "Deadlift": "Peso Muerto",
+      "Weight": "Peso Levantado",
+      "Repetitions": "Repeticiones",
+      "Formula": "Selecciona la formula para calcular tu 1RM",
+      "Calculate": "Calcular",
+      "RM": "Su RM es de "
+    }
+  },
+  "How": {
+    "How": "Como usar la calculadora ?",
+    "First": "Ingrese la cantidad de peso que levantó (en kg o lbs).",
+    "Second": "Escribe el número de repeticiones que realizaste con ese peso.",
+    "Third": "Seleccione la fórmula que desea utilizar (Epley, Brzycki, etc.).",
+    "Fourth": "Haga clic en el botón 'Calcular'.",
+    "Fifth": "Verás instantáneamente tu estimación de una repetición máxima (1RM).",
+    "Sixth": "🔍Puedes probar diferentes fórmulas para comparar resultados y ver cuál se adapta mejor a tu cuerpo.",
+    "Seventh": "💡 Consejo: La mayoría de las fórmulas son precisas para entre 1 y 10 repeticiones. Más allá de eso, los resultados pueden variar."
+  },
+  "Nutrition": {
+    "First": "¡¡Alimentando tu fuerza!!",
+    "Second": "En esta página, compartiremos recomendaciones nutricionales clave para ayudarte a alcanzar tu máximo potencial.",
+    "Third": " En primer lugar, este artículo no ofrece un plan de dieta estricto ni perfecto. En cambio, ofrece consejos útiles que pueden ayudarte a fortalecerte con el tiempo.",
+    "Fourth": "¡Bueno, empecemos!",
+    "Fifth": "🍽️Consejos para las comidas🍽️",
+    "Sixth": "Como atleta, tu rendimiento depende del combustible que le das a tu cuerpo. Recuerda: no hay fuerza sin energía. Prioriza tu consumo de ",
+    "Seventh": "macronutrientes",
+    "Eighth": " (calorías, proteínas, grasas y carbohidratos) y",
+    "Ninth": "micronutrientes",
+    "Tenth": " (vitaminas y minerales).",
+    "Eleventh": "Si bien los micronutrientes son esenciales para el correcto funcionamiento del cuerpo, los macronutrientes desempeñan un papel más directo en el desarrollo de la fuerza. Por eso, para el entrenamiento de fuerza, debes centrarte especialmente en obtener suficientes ",
+    "Twelfth": " calorías y proteínas ",
+    "Thirteenth": " debes aspirar a consumir entre 1,6 y 2,2 g de proteína por kg de peso corporal y tratar de mantener una ingesta calórica que favorezca las ganancias de fuerza.",
+    "Fourteenth": "El enfoque mencionado anteriormente es una de las maneras más efectivas de aumentar la fuerza a través de la nutrición. Claro que es posible ganar fuerza sin aumentar el peso corporal, pero el progreso probablemente será más lento.",
+    "Fifteenth": "🏋️‍♂️Consejos de entrenamiento🏋️‍♀️",
+    "Sixteenth": "Fortalecerse no depende solo de la nutrición; el entrenamiento es esencial. Para desarrollar fuerza, necesitas seguir un plan consistente y progresivo.",
+    "Focus": "Enfócate en",
+    "Compound": "movimientos compuestos",
+    "Like": "como sentadillas, peso muerto, press de banca y dominadas. Estos ejercicios involucran múltiples grupos musculares y estimulan más el desarrollo de la fuerza que los ejercicios de aislamiento.",
+    "Priorizite": "Prioriza la",
+    "Progressive": "sobrecarga progresiva",
+    "Increase": " aumentar el peso, las repeticiones o la intensidad con el tiempo para impulsar el rendimiento. Tu cuerpo se adaptará y se fortalecerá.",
+    "Remember": "Recuerda conseguir ",
+    "Enough": "Suficiente descanso y recuperación",
+    "Muscles": " Los músculos crecen cuando descansas, no solo cuando entrenas. Intenta dormir de 7 a 9 horas y deja tiempo para la recuperación muscular entre sesiones intensas.",
+    "Lastly": "Por ultimo, ",
+    "Consistency": "La constancia supera a la perfección ",
+    "Stick": ".  Adiherete a tu plan, haz un seguimiento de tu progreso y haz los ajustes necesarios. ¡La fuerza es un camino a largo plazo! a tu plan, haz un seguimiento de tu progreso y haz los ajustes necesarios. ¡La fuerza es un camino a largo plazo!"
+  },
+  "About": {
+    "title": "Sobre Este Sitio",
+    "description1": "Este sitio está dedicado a quienes buscan mejorar su fuerza. Aquí puedes calcular tu repetición máxima estimada (1RM) utilizando diferentes fórmulas científicas como Epley, Brzycki, Lombardi y O’Conner.",
+    "description2": "Simplemente ingresa el peso que levantaste y el número de repeticiones que realizaste, y la herramienta estimará la cantidad máxima que podrías levantar en una sola repetición. Esto ayuda a atletas y entusiastas del fitness a:",
+    "list1": "Registrar su progreso de fuerza con el tiempo (funcionalidad en desarrollo)",
+    "list2": "Elegir las cargas de entrenamiento más efectivas",
+    "list3": "Comparar fórmulas para ver cuál se adapta mejor a su cuerpo",
+    "description3": "Ya seas principiante o atleta experimentado, esta herramienta ofrece una forma rápida y confiable de comprender mejor tu rendimiento en fuerza.",
+    "creatorTitle": "Creador y Mensaje",
+    "creator1": "¡Hola! Soy Leonardo. Espero que estés disfrutando esta página. Fue creada con base en mi experiencia personal como levantador y programador que quería ofrecer un sitio fresco y fácil de usar para facilitar la comprensión del entrenamiento de fuerza.",
+    "creator2": "Habrá más actualizaciones en el futuro a medida que mis habilidades como desarrollador sigan creciendo.",
+    "creator3": "Puedes encontrar más de mi trabajo aquí:"
+  }
+}

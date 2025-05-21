@@ -1,0 +1,60 @@
+.Container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+.Description {
+  width: 95%;
+  border-radius: 5px;
+}
+.Divisions {
+    box-shadow: 0 0 1px #fff, 0px 0px 10px rgb(63, 205, 245, 0.5),
+    0px 0 10px rgba(232, 0, 232, 1);
+  align-items: center;
+  align-content: center;
+  width: 60%;
+  height: 50px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  background: rgba(232, 0, 232, 0.3);
+  text-decoration: none;
+}
+.Things {
+  height: 32%;
+  width: 95%;
+  gap: 1%;
+  display: flex;
+  align-content: space-between;
+  margin-bottom: 10px;
+}
+.ItsYours {
+  background: linear-gradient(
+    to right,
+    rgba(232, 0, 232, 1),
+    rgb(63, 205, 245, 1),
+    rgb(0, 124, 158),
+    rgb(63, 205, 245, 1),
+    rgba(232, 0, 232, 1)
+  );
+  background-clip: text;
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  animation: animate-gradient 4s linear infinite;
+}
+@keyframes animate-gradient {
+  to {
+    background-position: 200%;
+  }
+}
+@media (max-width: 768px) {
+  .Divisions {
+    height: 60px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+}

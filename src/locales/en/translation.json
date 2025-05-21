@@ -1,0 +1,78 @@
+{
+  "Strength": {
+    "Strength.up": "Make the strength yours",
+    "Strength.calc": "Strength Calculator",
+    "Strength.nutri": "Nutrition and Training",
+    "Strength.about": "About this page"
+  },
+  "Form": {
+    "Data": "Lift Data",
+    "Inputs": {
+      "Gender": "Gender",
+      "Male": "Male",
+      "Female": "Female",
+      "Exercise": "Exercise",
+      "BenchPress": "Bench Press",
+      "Squat": "Squat",
+      "Deadlift": "Deadlift",
+      "Weight": "Weight Lifted",
+      "Repetitions": "Repetitions",
+      "Formula": "Select the formula to calculate your 1RM",
+      "Calculate": "Calculate",
+      "RM": "Your RM is "
+    }
+  },
+  "How": {
+    "How": "How to use the calculator ?",
+    "First": "Enter the amount of weight you lifted (in kg or lbs)",
+    "Second": " Type the number of repetitions you performed with that weight.",
+    "Third": "Select the formula you want to use (Epley, Brzycki, etc.).",
+    "Fourth": "Click the 'Calculate' button.",
+    "Fifth": "You'll instantly see your estimated one-rep max (1RM).",
+    "Sixth": "🔍 You can try different formulas to compare results and see which fits your body better.",
+    "Seventh": "💡 Tip: Most formulas are accurate for 1 to 10 reps. Beyond that,results may vary."
+  },
+  "Nutrition": {
+    "First": "Fueling your Strength!!",
+    "Second": "On this page, we'll share key nutritional recommendations to help you reach your full potential.",
+    "Third": "  First of all, this article doesn’t offer a strict or 'perfect' diet plan. Instead, it provides useful tips that can help you get stronger over time.",
+    "Fourth": "Well, lets get started!!",
+    "Fifth": "🍽️Tips for meals🍽️",
+    "Sixth": "As an athlete, your performance depends on the fuel you give your body. Remember: there’s no strength without energy. Prioritize your intake of ",
+    "Seventh": "macronutrients ",
+    "Eighth": "(calories, protein, fats, and carbs) and",
+    "Ninth": "micronutrients",
+    "Tenth": " (vitamins and minerals).",
+    "Eleventh": "  While micronutrients are essential for proper body function,macronutrients have a more direct role in building strength. That’s why for strength training, you should focus especially on getting enough",
+    "Twelfth": " calories and protein",
+    "Thirteenth": " you should aim to consume between 1.6 and 2.2 g of protein per kg of bodyweight and try to mantain a caloric suplus to support strength gains.",
+    "Fourteenth": "The approach mentioned above is one of the most effective ways to boost your strength through nutrition. Of course, it’s possible to gain strength without increasing your body weight, but the progress will likely be slower.",
+    "Fifteenth": "🏋️‍♂️Training Tips 🏋️‍♀️",
+    "Sixteenth": "Getting stronger doesn’t rely on nutrition alone  training is essential. To build strength, you need to follow a consistent and progressive plan.",
+    "Focus": "Focus on",
+    "Compound": "compound movements",
+    "Like": "like squats, deadlifts, bench presses, and pull-ups. These exercises recruit multiple muscle        groups and stimulate more strength development than isolation exercises.",
+    "Priorizite": "Prioritize",
+    "Progressive": "progressive overload",
+    "Increase": " increase the weight, reps, or intensity over time to push your body to adapt and grow stronger.",
+    "Remember": "Remember to get",
+    "Enough": " enough rest and recovey",
+    "Muscles": " Muscles grow when you rest, not just when you train. Aim for 7–9 hours of sleep and allow time for muscle recovery between intense sessions.",
+    "Lastly": "Lastly, ",
+    "Consistency": "consistency beats perfection",
+    "Stick": ". Stick to your plan, track your progress, and make adjustments as needeed. Strength is a long-term journey!"
+  },
+  "About": {
+    "title": "About This Site",
+    "description1": "This site is dedicated to lifters who aim to improve their strength. Here, you can calculate your estimated one-repetition maximum (1RM) using different scientific formulas such as Epley, Brzycki, Lombardi, and O’Conner.",
+    "description2": "Simply enter the weight you lifted and the number of repetitions you performed, and the tool will estimate the maximum amount you could lift in a single rep. This helps athletes and fitness enthusiasts to:",
+    "list1": "Track their strength progress over time (feature in progress)",
+    "list2": "Choose the most effective training loads",
+    "list3": "Compare formulas to see which one suits their body best",
+    "description3": "Whether you're new to lifting or an experienced athlete, this tool offers a quick and reliable way to better understand your strength performance.",
+    "creatorTitle": "Creator and Message",
+    "creator1": "Hello! I'm Leonardo. I hope you’re enjoying this page. It was built based on my personal experience as both a lifter and a programmer who wanted to create a fresh, user-friendly site to make understanding strength training easier.",
+    "creator2": "More updates will be coming in the future as my development skills continue to grow.",
+    "creator3": "You can find more of my work here:"
+  }
+}

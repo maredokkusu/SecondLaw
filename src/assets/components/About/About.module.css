@@ -1,0 +1,128 @@
+.Container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+.About {
+  box-shadow: 0 0 5px #fff, 0px 0px 25px rgb(232, 0, 232, 0.5),
+    0px 0 25px rgba(63, 205, 245, 1);
+  padding: 2%;
+  border-radius: 10px;
+  margin-top: 3%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  background-color: rgb(63, 205, 245, 0.3);
+}
+.Creator {
+  box-shadow: 0 0 5px #fff, 0px 0px 25px rgb(63, 205, 245, 0.5),
+    0px 0 25px rgba(232, 0, 232, 1);
+  padding: 2%;
+  border-radius: 10px;
+  margin: 6% 0 6% 0;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  background-color: rgba(232, 0, 232, 0.3);
+}
+.AboutThis {
+  width: 50%;
+  border-radius: 10px;
+  padding: 1%;
+  background-color: rgba(232, 0, 232, 0.3);
+}
+.Message {
+  border-radius: 10px;
+  width: 50%;
+  padding: 1%;
+  background-color: rgba(63, 205, 245, 0.3);
+}
+.Paragraph {
+  padding: 3%;
+  width: 70%;
+  background: linear-gradient(
+    to right,
+    rgba(63, 205, 245, 0.3),
+    rgba(232, 0, 232, 0.3)
+  );
+  border-radius: 10px;
+}
+.List {
+  list-style: none;
+  padding: 3%;
+  border-radius: 10px;
+  width: 70%;
+  background: linear-gradient(
+    to right,
+    rgba(63, 205, 245, 0.3),
+    rgba(232, 0, 232, 0.3)
+  );
+}
+.ParagraphOne {
+  width: 70%;
+  padding: 3%;
+  border-radius: 10px;
+  background: linear-gradient(
+    to right,
+    rgba(232, 0, 232, 0.3),
+    rgba(63, 205, 245, 0.3)
+  );
+}
+.ParagraphOnce {
+  width: 70%;
+  padding: 3%;
+  border-radius: 10px;
+  background: linear-gradient(
+    to right,
+    rgba(232, 0, 232, 0.3),
+    rgba(63, 205, 245, 0.3)
+  );
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 0px;
+}
+
+.Links {
+  box-shadow: 0 0 5px #fff, 0px 0px 25px rgba(232, 0, 232, 0.5),
+    0px 0 25px rgb(63, 205, 245, 1);
+  border-radius: 50%;
+  padding: 1%;
+  width: 50%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  background: linear-gradient(
+    to right,
+    rgba(232, 0, 232, 1),
+    rgb(63, 205, 245, 1),
+    rgb(0, 124, 158),
+    rgb(63, 205, 245, 1),
+    rgba(232, 0, 232, 1)
+  );
+  background-size: 200%;
+  font-weight: bold;
+  animation: animate-gradient 5s linear infinite;
+}
+@keyframes animate-gradient {
+  to {
+    background-position: 200%;
+  }
+}
+@media (max-width: 768px) {
+  .About {
+    width: 85%;
+  }
+  .Creator {
+    width: 85%;
+  }
+}
+@media (max-width: 768px) {
+  .Links {
+    width: 75%;
+  }
+}

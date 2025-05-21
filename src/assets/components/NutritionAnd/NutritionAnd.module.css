@@ -1,0 +1,118 @@
+.NutritionAnd {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.NutritionContainer {
+  padding: 1%;
+  margin-top: 2%;
+  background-color: rgba(232, 0, 232, 0.3);
+  box-shadow: 0 0 5px #fff, 0px 0px 25px rgb(63, 205, 245, 0.5),
+    0px 0 25px rgba(232, 0, 232, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+  border-radius: 10px;
+}
+
+.TipsForMeals {
+  padding: 1%;
+  margin-top: 3%;
+  background-color: rgb(63, 205, 245, 0.3);
+  box-shadow: 0 0 5px #fff, 0px 0px 25px rgba(232, 0, 232, 0.5),
+    0px 0px 25px rgb(63, 205, 245, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+  border-radius: 10px;
+}
+.TrainingTips {
+  padding: 1%;
+  margin-top: 3%;
+  background-color: rgba(232, 0, 232, 0.3);
+  box-shadow: 0 0 5px #fff, 0px 0px 25px rgb(63, 205, 245, 0.5),
+    0px 0 25px rgba(232, 0, 232, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+  border-radius: 10px;
+  margin-bottom: 10%;
+}
+.TrainingTitle {
+  background-color: rgba(232, 0, 232, 0.3);
+  border-radius: 10px;
+}
+.ParagraphOne {
+  line-height: 200%;
+  border-radius: 10px;
+  width: 80%;
+  background: linear-gradient(
+    90deg,
+    rgba(232, 0, 232, 0.3),
+    rgb(63, 205, 245, 0.3)
+  );
+}
+.ParagraphTwo {
+  line-height: 200%;
+  border-radius: 10px;
+  width: 80%;
+  background: linear-gradient(
+    90deg,
+    rgb(63, 205, 245, 0.3),
+    rgba(232, 0, 232, 0.3)
+  );
+}
+.Title {
+  width: 50%;
+  background-color: rgb(63, 205, 245, 0.3);
+  border-radius: 10px;
+}
+.Tips {
+  background-color: rgba(232, 0, 232, 0.3);
+  border-radius: 10px;
+}
+.Title,
+.Tips,
+.TrainingTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+.ParagraphOne,
+.ParagraphTwo {
+  padding: 10px 15px;
+}
+.ParagraphOne strong,
+.ParagraphTwo strong {
+  background: linear-gradient(
+    to right,
+    rgba(232, 0, 232, 1),
+    rgb(63, 205, 245, 1),
+    rgb(0, 124, 158),
+    rgb(63, 205, 245, 1),
+    rgba(232, 0, 232, 1)
+  );
+  background-clip: text;
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  animation: animate-gradient 4s linear infinite;
+}
+@keyframes animate-gradient {
+  to {
+    background-position: 200%;
+  }
+}
+@media (max-width: 768px) {
+  .NutritionContainer,
+  .TipsForMeals,
+  .TrainingTips {
+    width: 90%;
+  }
+}

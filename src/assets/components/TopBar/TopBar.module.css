@@ -1,0 +1,40 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background: linear-gradient(
+    90deg,
+    rgba(232, 0, 232, 0.5),
+    rgb(63, 205, 245, 0.5)
+  );
+  height: 15%;
+  width: 100%;
+  border-bottom: solid rgba(255, 255, 255, 0.249);
+}
+.Title {
+  font-size: large;
+  width: 60%;
+  text-align: start;
+  padding-left: 10px;
+}
+.Change {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  gap: 10%;
+  align-items: center;
+  align-content: center;
+}
+.TopButt {
+  width: 40%;
+  align-items: center;
+  align-content: center;
+  font-size: medium;
+  padding: 10px 0px 10px 0px;
+  background: rgba(232, 0, 232, 0.3);
+  border-radius: 15px;
+  border: none;
+  text-decoration: none;
+  color: white;
+}
