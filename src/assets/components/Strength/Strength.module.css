@@ -24,7 +24,7 @@
 .Things {
   height: 32%;
   width: 95%;
-  gap: 1%;
+  gap: 10%;
   display: flex;
   align-content: space-between;
   margin-bottom: 10px;
