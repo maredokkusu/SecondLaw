@@ -1,6 +1,6 @@
 import styles from "./TopBar.module.css";
 import { useState } from "react";
-import "/home/leonardo-conde/Documentos/Portfolio/Proyecto 1/src/i18n.js";
+import "/src/i18n.js";
 import { useTranslation } from "react-i18next";
 export default function TopBar() {
   const { t, i18n } = useTranslation();
