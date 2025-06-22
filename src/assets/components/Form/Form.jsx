@@ -115,9 +115,6 @@ export default function Form() {
           <button className={styles.Input} type="button" onClick={CalculateRm}>
             {t("Form.Inputs.Calculate")}
           </button>
-          {(weight >= 500 || reps >= 500) && (
-            <p>la cantidad es maxima o superior</p>
-          )}
           {res !== null && (
             <p className={styles.Rm}>
               {t("Form.Inputs.RM")}
@@ -138,9 +135,7 @@ export default function Form() {
         </ol>
 
         <p className={styles.Paragraph}>{t("How.Sixth")}</p>
-        <p className={styles.Paragraph}>
-         {t("How.Seventh")}
-        </p>
+        <p className={styles.Paragraph}>{t("How.Seventh")}</p>
       </aside>
     </div>
   );

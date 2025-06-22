@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./assets/components/Footer/Footer"
 import Form from "./assets/components/Form/Form";
 import TopBar from "./assets/components/TopBar/TopBar";
 import Strength from "./assets/components/Strength/Strength";
@@ -18,11 +19,12 @@ function App() {
               <Form />
             </>
           }
-        />
+          />
         <Route path="/" element={<Form />} />
         <Route path="/nutrition" element={<NutritionAnd />} />
         <Route path="/about" element={<About />} />
       </Routes>
+          <Footer/>
     </Router>
   );
 }

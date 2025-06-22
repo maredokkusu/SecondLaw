@@ -1,0 +1,14 @@
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background: linear-gradient(
+    90deg,
+    rgba(232, 0, 232, 0.5),
+    rgb(63, 205, 245, 0.5)
+  );
+  height: 60px;
+  width: 100%;
+  border-top: solid rgba(255, 255, 255, 0.249);
+}
